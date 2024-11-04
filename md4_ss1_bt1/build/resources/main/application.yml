@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: md4_ss1_bt1
+    datasource:
+        password: 10011996
+        url: jdbc:mysql://localhost:3306/ss1_bt1?createDatabaseIfNotExist=true
+        username: root
+    jooq:
+        sql-dialect: org.hibernate.dialect.MySQL8Dialect
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
